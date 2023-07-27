@@ -84,6 +84,11 @@ body {
     align-items: center;
 }
 
+.text a {
+    text-decoration: none;
+    color: black;
+}
+
 #icon_sm {
     display: flex;
     margin: 5%;
@@ -153,8 +158,12 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    #logo {
+        height: 35px;
+    }
+
     #nav_right {
-        width: 85%;
+        width: 90%;
     }
 
     #contact_me h1 {

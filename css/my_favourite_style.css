@@ -137,8 +137,12 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    #logo {
+        height: 35px;
+    }
+
     #nav_right {
-        width: 85%;
+        width: 90%;
     }
 
     #my_favourite h1 {
