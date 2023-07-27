@@ -131,16 +131,19 @@ body {
 .pb1 {
     width: 100%;
     padding: 4%;
+    accent-color: #424874;
 }
 
 .pb2 {
     width: 100%;
     padding: 4%;
+    accent-color: #424874;
 }
 
 .pb3 {
     width: 100%;
     padding: 4%;
+    accent-color: #424874;
 }
 
 #p_C {
@@ -299,6 +302,12 @@ body {
     color: #F4EEFF;
 }
 
+#footer p {
+    margin-top: 25px;
+    color: #F4EEFF;
+    font-size: 14px;
+}
+
 @media screen and (max-width: 800px) {
     #nav_bar {
         flex-direction: column;
@@ -437,5 +446,27 @@ body {
 
     #img_bottom {
         margin-top: 70%;
+    }
+
+    #footer h1 {
+        margin-top: 2%;
+        font-size: 26px;
+    }
+
+    #footer h2 {
+        font-size: 16px;
+    }
+
+    .text {
+        margin-top: 10px;
+    }
+
+    #text_email {
+        margin-top: 5px;
+    }
+
+    #footer p {
+        font-size: 10px;
+        text-align: center;
     }
 }
