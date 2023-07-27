@@ -1,0 +1,157 @@
+body {
+    max-width: 1520px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+#nav_bar {
+    width: 100%;
+    background-color: #A6B1E1;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#nav_left {
+    padding-left: 20px;
+}
+
+#nav_right {
+    display: flex;
+    font-size: 17px;
+}
+
+#nav_right div {
+    padding: 15px 25px;
+}
+
+#this_page {
+    text-decoration: underline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: #F4EEFF;
+}
+
+#my_favourite {
+    background-color: #F4EEFF;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#web_border1 {
+    position: relative;
+    margin-top: 1%;
+    margin-left: 1.5%;
+    width: 97%;
+    height: 1100px;
+    border: 5px solid #424874;
+}
+
+#web_border2 {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #424874;
+}
+
+#my_favourite h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.mf {
+    background-image: linear-gradient(to bottom right, #DCD6F7, #F4EEFF);
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    padding: 3.5%;
+    align-items: center;
+}
+
+.mf h2 {
+    font-size: 35px;
+}
+
+.mf_img {
+    flex: 1;
+    text-align: center;
+}
+
+.mf_content {
+    flex: 4;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+#mf_middle {
+    background-image: linear-gradient(to bottom left, #DCD6F7, #F4EEFF);
+    flex-direction: row-reverse;
+}
+
+#mf_content_middle {
+    text-align: right;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    #web_border1 {
+        height: 900px;
+    }
+
+    .mf_content h2 {
+        font-size: 32px;
+    }
+
+    .mf_content p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #web_border1 {
+        height: 800px;
+    }
+
+    .mf_content h2 {
+        font-size: 28px;
+    }
+
+    .mf_content p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #my_favourite h1 {
+        font-size: 40px;
+    }
+
+    #web_border1 {
+        height: 700px;
+    }
+
+    .mf_content h2 {
+        font-size: 25px;
+    }
+
+    .mf_content p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #web_border1 {
+        height: 650px;
+    }
+}

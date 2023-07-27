@@ -1,0 +1,362 @@
+body {
+    max-width: 1520px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+#nav_bar {
+    width: 100%;
+    background-color: #A6B1E1;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#nav_left {
+    padding-left: 20px;
+}
+
+#nav_right {
+    display: flex;
+    font-size: 17px;
+}
+
+#nav_right div {
+    padding: 15px 25px;
+}
+
+#this_page {
+    text-decoration: underline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: #F4EEFF;
+}
+
+#about_me_page {
+    padding-top: 50px;
+    background-color: #F4EEFF;
+}
+
+#self_intro {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#si_left {
+    width: 50%;
+}
+
+#si_right {
+    width: 50%;
+    font-size: 28px;
+}
+
+#si_right h1 {
+    font-size: 180%;
+}
+
+#si_right span {
+    font-weight: bold;
+}
+
+#skill_icon {
+    padding: 5% 4%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.s_icon {
+    width: 25%;
+}
+
+#my_skill {
+    background-color: #DCD6F7;
+    padding: 1% 6%;
+    text-align: center;
+}
+
+#my_skill h1 {
+    font-size: 55px;
+}
+
+#progress_bar {
+    width: 100%;
+}
+
+.pb {
+    display: flex;
+}
+
+.pb h2 {
+    margin: 0;
+    text-align: left;
+}
+
+.pb p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.div_text {
+    position: relative;
+}
+
+.percentage {
+    position: absolute;
+    top: 20%;
+}
+
+.div_pb {
+    width: 50%;
+    margin: 1% 7%;
+}
+
+.pb1 {
+    width: 100%;
+    padding: 4%;
+}
+
+.pb2 {
+    width: 100%;
+    padding: 4%;
+}
+
+.pb3 {
+    width: 100%;
+    padding: 4%;
+}
+
+#p_C {
+    left: 85%;
+}
+
+#p_Cpp {
+    left: 80%;
+}
+
+#p_html {
+    left: 78%;
+}
+
+#p_css {
+    left: 73%;
+}
+
+#p_photoshop {
+    left: 65%;
+}
+
+#p_java {
+    left: 81%;
+}
+
+#edu {
+    background-color: #F4EEFF;
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+#edu h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+#timeline {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#t-item1 {
+    padding: 20px;
+    border-left: 2px solid #A6B1E1;
+    position: relative;
+    margin-left: 50%;
+}
+
+.edu_img {
+    display: none;
+}
+
+#t-item1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 12px;
+    height: 12px;
+    background-color: #424874;
+    border-radius: 50%;
+    border: 2px solid #A6B1E1;
+}
+
+#t-item2 {
+    padding: 20px;
+    border-right: 2px solid #A6B1E1;
+    position: relative;
+    margin-right: 49.8%;
+    text-align: right;
+}
+
+#t-item2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -8px;
+    width: 12px;
+    height: 12px;
+    background-color: #424874;
+    border-radius: 50%;
+    border: 2px solid #A6B1E1;
+}
+
+#t-item3 {
+    padding: 20px;
+    border-left: 2px solid #A6B1E1;
+    position: relative;
+    margin-left: 50%;
+}
+
+#t-item3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 12px;
+    height: 12px;
+    background-color: #424874;
+    border-radius: 50%;
+    border: 2px solid #A6B1E1;
+}
+
+.t-content {
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    #si_left {
+        width: 100%;
+    }
+
+    #si_right {
+        width: 100%;
+        text-align: center;
+    }
+
+    #self_intro {
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+
+    #about_me_page h1 {
+        font-size: 40px;
+    }
+
+    .pb {
+        flex-wrap: wrap;
+    }
+
+    .div_pb {
+        width: 100%;
+        margin: 3% 7%;
+    }
+
+    #timeline {
+        position: none;
+        max-width: none;
+        margin: none;
+    }
+
+    #t-item1 {
+        padding: 20px;
+        border: 5px solid #424874;
+        position: none;
+        margin: 5%;
+        display: flex;
+        background-color: #DCD6F7;
+    }
+
+    #t-item1::before {
+        content: none;
+        position: none;
+        top: none;
+        left: none;
+        width: none;
+        height: none;
+        background-color: none;
+        border-radius: none;
+        border: none;
+    }
+
+    #t-item2 {
+        padding: 20px;
+        border: 5px solid #424874;
+        position: none;
+        margin: 5%;
+        display: flex;
+        text-align: left;
+        background-color: #DCD6F7;
+    }
+
+    #t-item2::before {
+        content: none;
+        position: none;
+        top: none;
+        left: none;
+        width: none;
+        height: none;
+        background-color: none;
+        border-radius: none;
+        border: none;
+    }
+
+    #t-item3 {
+        padding: 20px;
+        border: 5px solid #424874;
+        position: none;
+        margin: 5%;
+        display: flex;
+        background-color: #DCD6F7;
+    }
+
+    #t-item3::before {
+        content: none;
+        position: none;
+        top: none;
+        left: none;
+        width: none;
+        height: none;
+        background-color: none;
+        border-radius: none;
+        border: none;
+    }
+
+    .div_edu_img {
+        flex: 1;
+    }
+
+    .t-content {
+        flex: 6;
+    }
+
+    .edu_img {
+        display: block;
+        align-items: center;
+        margin-top: 50%;
+    }
+
+    #img_bottom {
+        margin-top: 100%;
+    }
+}

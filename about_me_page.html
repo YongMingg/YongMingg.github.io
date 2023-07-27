@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/about_me_page_style.css">
+    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="nav_bar">
+        <div id="nav_left">
+            <img src="image/logo(white).png" alt="image logo" height="50px">
+        </div>
+        <div id="nav_right">
+            <div class="menu">
+                <a href="home_page.html">Home</a>
+            </div>
+            <div class="menu">
+                <a id="this_page" href="about_me_page.html">About Me</a>
+            </div>
+            <div class="menu">
+                <a href="my_work.html">My Work</a>
+            </div>
+            <div class="menu">
+                <a href="my_favourite.html">My Favourite</a>
+            </div>
+            <div class="menu">
+                <a href="contact_me_page.html">Contact Me</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="about_me_page">
+        <div id="self_intro">
+            <div id="si_left">
+                <img src="image/self_intro_img.png" alt="picture" width="65%">
+            </div>
+            <div id="si_right">
+                <h1>About Me</h1>
+                <p><span>Name: </span>Woon Yong Ming</p>
+                <p><span>Age: </span>20</p>
+                <p><span>From: </span>Kuantan, Malaysia</p>
+                <p><span>Profession: </span>Software Engineer</p>
+            </div>
+        </div>
+
+        <div id="skill_icon">
+            <div class="s_icon">
+                <img src="image/C_icon.png" alt="c icon" width="28%">
+            </div>
+            <div class="s_icon">
+                <img src="image/Java_icon.png" alt="java icon" width="28%">
+            </div>
+            <div class="s_icon">
+                <img src="image/android_icon.png" alt="android icon" width="28%">
+            </div>
+            <div class="s_icon">
+                <img src="image/Kotlin_icon.png" alt="kotlin icon" width="28%">
+            </div>
+        </div>
+
+        <div id="my_skill">
+            <h1>My Skill</h1>
+            <!-- <img src="image/my_skill.png" alt="skill picture" width="100%"> -->
+            <div id="progress_bar">
+                <div class="pb" id="pb1">
+                    <div class="div_pb">
+                        <div class="div_text">
+                            <h2>C</h2>
+                            <div class="percentage" id="p_C">
+                                <p>90%</p>
+                            </div>
+                        </div>
+                        <progress class="pb1" id="pb1_left" value="90" max="100"></progress>
+                    </div>
+                    <div class="div_pb">
+                        <div class="div_text">
+                            <h2>C++</h2>
+                            <div class="percentage" id="p_Cpp">
+                                <p>85%</p>
+                            </div>
+                        </div>
+                        <progress class="pb1" id="pb1_right" value="85" max="100"></progress>
+                    </div>
+                </div>
+                <div class="pb" id="pb2">
+                    <div class="div_pb">
+                        <div class="div_text">
+                            <h2>HTML</h2>
+                            <div class="percentage" id="p_html">
+                                <p>83%</p>
+                            </div>
+                        </div>
+                        <progress class="pb2" id="pb2_left" value="83" max="100"></progress>
+                    </div>
+                    <div class="div_pb">
+                        <div class="div_text">
+                            <h2>CSS</h2>
+                            <div class="percentage" id="p_css">
+                                <p>78%</p>
+                            </div>
+                        </div>
+                        <progress class="pb2" id="pb2_right" value="78" max="100"></progress>
+                    </div>
+                </div>
+                <div class="pb" id="pb3">
+                    <div class="div_pb">
+                        <div class="div_text">
+                            <h2>Photoshop</h2>
+                            <div class="percentage" id="p_photoshop">
+                                <p>70%</p>
+                            </div>
+                        </div>
+                        <progress class="pb3" id="pb3_left" value="70" max="100"></progress>
+                    </div>
+                    <div class="div_pb">
+                        <div class="div_text">
+                            <h2>Java</h2>
+                            <div class="percentage" id="p_java">
+                                <p>86%</p>
+                            </div>
+                        </div>
+                        <progress class="pb3" id="pb3_right" value="86" max="100"></progress>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="edu">
+            <h1>Education</h1>
+            <div id="timeline">
+                <div id="t-item1">
+                    <div class="div_edu_img">
+                        <img class="edu_img" src="image/education.png" alt="icon" width="100%">
+                    </div>
+                    <div class="t-content">
+                        <h3>2010-2015</h3>
+                        <p>Primary School</p>
+                    </div>
+                </div>
+                <div id="t-item2">
+                    <div class="div_edu_img">
+                        <img class="edu_img" src="image/education.png" alt="icon" width="100%">
+                    </div>
+                    <div class="t-content" id="t-content-middle">
+                        <h3>2016-2021</h3>
+                        <p>Science class in secondory school</p>
+                    </div>
+                </div>
+                <div id="t-item3">
+                    <div class="div_edu_img">
+                        <img class="edu_img" id="img_bottom" src="image/education.png" alt="icon" width="100%">
+                    </div>
+                    <div class="t-content">
+                        <h3>2022-2024</h3>
+                        <p>New Era University</p>
+                        <p>Banchelor Degree in Software Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
