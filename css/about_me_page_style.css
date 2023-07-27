@@ -15,7 +15,7 @@ body {
 }
 
 #nav_left {
-    padding-left: 1.5%;
+    padding: 5px;
 }
 
 #nav_right {
@@ -27,7 +27,7 @@ body {
 }
 
 #nav_right div {
-    width: 20%;
+    width: 25%;
     margin: 1% 1.6%;
 }
 
@@ -61,6 +61,7 @@ body {
 
 #si_right {
     width: 50%;
+    text-align: left;
     font-size: 28px;
 }
 
@@ -85,12 +86,14 @@ body {
 
 #my_skill {
     background-color: #DCD6F7;
-    padding: 1% 6%;
+    padding: 3% 6%;
     text-align: center;
 }
 
 #my_skill h1 {
     font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 2%;
 }
 
 #progress_bar {
@@ -247,17 +250,68 @@ body {
     padding-left: 20px;
 }
 
+#footer {
+    background-color: #424874;
+    padding: 2%;
+}
+
+#footer h1 {
+    color: #F4EEFF;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+.container {
+    display: flex;
+}
+
+.icon {
+    padding: 15px;
+}
+
+.text {
+    font-size: small;
+    margin-left: 10px;
+}
+
+.text a {
+    text-decoration: none;
+    color: #F4EEFF;
+    align-items: center;
+}
+
+.text a:hover {
+    text-decoration: underline;
+    color: #DCD6F7;
+}
+
+#icon_sm {
+    display: flex;
+    margin-top: 5px;
+}
+
+#icon_sm div {
+    width: 140px;
+    text-align: center;
+}
+
+#icon_sm a:hover {
+    color: #F4EEFF;
+}
+
 @media screen and (max-width: 800px) {
-    #logo {
-        height: 35px;
+    #nav_bar {
+        flex-direction: column;
+    }
+
+    #nav_left {
+        width: 100%;
+        text-align: center;
+        padding: 0;
     }
 
     #nav_right {
-        width: 90%;
-    }
-
-    .menu a {
-        font-size: 10px;
+        width: 100%;
     }
 
     #si_left {
@@ -266,6 +320,7 @@ body {
 
     #si_right {
         width: 100%;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -292,6 +347,14 @@ body {
         position: none;
         max-width: none;
         margin: none;
+    }
+
+    #timeline h3 {
+        font-size: 25px;
+    }
+
+    #timeline p {
+        font-size: 15px;
     }
 
     #t-item1 {
@@ -368,11 +431,11 @@ body {
 
     .edu_img {
         display: block;
-        align-items: center;
-        margin-top: 50%;
+        justify-content: center;
+        margin-top: 45%;
     }
 
     #img_bottom {
-        margin-top: 100%;
+        margin-top: 70%;
     }
 }
