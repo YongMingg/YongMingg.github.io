@@ -256,6 +256,10 @@ body {
         width: 90%;
     }
 
+    .menu a {
+        font-size: 10px;
+    }
+
     #si_left {
         width: 100%;
     }

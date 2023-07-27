@@ -145,6 +145,10 @@ body {
         width: 90%;
     }
 
+    .menu a {
+        font-size: 10px;
+    }
+
     #my_favourite h1 {
         font-size: 40px;
     }

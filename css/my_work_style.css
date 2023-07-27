@@ -190,6 +190,10 @@ body {
         width: 90%;
     }
 
+    .menu a {
+        font-size: 10px;
+    }
+
     #my_work h1 {
         font-size: 40px;
     }
