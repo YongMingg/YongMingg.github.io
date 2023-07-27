@@ -15,16 +15,20 @@ body {
 }
 
 #nav_left {
-    padding-left: 20px;
+    padding-left: 1.5%;
 }
 
 #nav_right {
+    width: 50%;
     display: flex;
     font-size: 17px;
+    align-items: center;
+    text-align: center;
 }
 
 #nav_right div {
-    padding: 15px 25px;
+    width: 20%;
+    margin: 1% 1.6%;
 }
 
 #this_page {
@@ -178,16 +182,20 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    #nav_right {
+        width: 80%;
+    }
+
     #my_work h1 {
         font-size: 40px;
     }
 
     #service_content h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     #service_content p {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #service_content {
