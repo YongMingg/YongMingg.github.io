@@ -1,0 +1,322 @@
+.container-xxl {
+    padding: 0;
+    background-image: url(../img/web_site\ background\(opacity-50\).png);
+}
+
+/* for page-change link */
+#page-change a {
+    text-decoration: none;
+    color: black;
+}
+
+#page-change a:hover {
+    color: #39A2DB;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+#page-change h4 {
+    font-size: 40px;
+}
+
+/* for nav footer css */
+.navbar {
+    background-color: #053742;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #A2DBFA;
+}
+
+.navbar-toggler {
+    background-color: #E8F0F2;
+    border: none;
+    color: #A2DBFA;
+}
+
+.footer {
+    background-color: #053742;
+}
+
+.footer p {
+    color: white;
+    text-align: right;
+}
+
+#footer-social {
+    justify-content: end;
+}
+
+#main_page_img {
+    position: relative;
+    background-image: url(../img/langkawi/istockphoto-838923698-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
+    /* for h1 center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_page_img h1 {
+    position: relative;
+    color: white;
+    font-size: 150px;
+    font-family: 'Jomhuria', cursive;
+}
+
+#main_page_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+
+.fontJomhuria {
+    font-family: 'Jomhuria', cursive;
+}
+
+.fontContent {
+    font-size: 38px;
+    line-height: normal;
+}
+
+.fontBlue {
+    color: #39A2DB;
+}
+
+.font-100 {
+    font-size: 100px;
+}
+
+.font-80 {
+    font-size: 80px;
+}
+
+.backgroundblue {
+    background-color: #A2DBFA;
+}
+
+#carouselExampleAutoplaying2 .carousel-inner .carousel-item img {
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 100%;
+}
+
+.carousel-caption h1 {
+    position: relative;
+    color: white;
+}
+
+.carousel-caption p {
+    position: relative;
+    color: white;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+
+@media screen and (max-width: 992px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #img2 img {
+        width: 100%;
+    }
+
+    .footer_logo {
+        padding-right: 24px;
+    }
+
+    #footer_logo_end {
+        padding-right: 24px;
+    }
+
+    #footer-copyright {
+        justify-content: end;
+        padding-right: 24px;
+    }
+
+    .flex1 {
+        flex-direction: column;
+    }
+
+    .flex2 {
+        flex-direction: column-reverse;
+    }
+
+    #margin_btm {
+        margin-bottom: 30px;
+    }
+
+
+
+    .carousel-item::before {
+        top: 45%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-caption {
+        top: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .font-100 {
+        font-size: 90px;
+    }
+
+    .font-80 {
+        font-size: 70px;
+    }
+
+    /* for page-change link */
+    #page-change {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #page-change h4 {
+        margin: 0;
+    }
+
+    #next {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #previous {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* for footer css */
+    .footer {
+        flex-direction: column;
+    }
+
+    #footer-logo {
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #footer-navlink {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-navlink a {
+        padding-top: 16px;
+    }
+
+    #footer-social {
+        justify-content: center;
+    }
+
+    #footer-social img {
+        width: 80px;
+        padding: 20px;
+    }
+
+    #footer-copyright {
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    #footer_logo_end {
+        padding-right: 0;
+    }
+
+    #footer-copyright p {
+        text-align: center;
+    }
+
+    #main_page_img h1 {
+        font-size: 120px;
+    }
+
+    #main_page_img {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .carousel-item::before {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-caption {
+        top: 25%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carousel-caption {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #main_page_img {
+        height: 500px;
+    }
+
+    #main_page_img h1 {
+        font-size: 100px;
+    }
+
+    .fontContent {
+        font-size: 30px;
+    }
+
+    .font-100 {
+        font-size: 80px;
+    }
+
+    .font-80 {
+        font-size: 60px;
+    }
+}

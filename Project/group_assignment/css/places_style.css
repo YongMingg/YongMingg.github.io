@@ -1,0 +1,496 @@
+.container-xxl {
+    padding: 0;
+    background-image: url(../img/web_site\ background\(opacity-50\).png);
+}
+
+/* for nav footer css */
+.navbar {
+    background-color: #053742;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:visited {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #A2DBFA;
+}
+
+.navbar-toggler {
+    background-color: #E8F0F2;
+    border: none;
+    color: #A2DBFA;
+}
+
+.footer {
+    background-color: #053742;
+}
+
+.footer p {
+    color: white;
+    text-align: right;
+}
+
+#footer-social {
+    justify-content: end;
+}
+
+/* for nav footer css end*/
+
+#main_page_img {
+    position: relative;
+    background-image: url(../img/touristattract.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
+    /* for h1 center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_page_img h1 {
+    position: relative;
+    color: white;
+    font-size: 150px;
+    font-family: 'Jomhuria', cursive;
+}
+
+#main_page_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.fontJomhuria {
+    font-family: 'Jomhuria', cursive;
+}
+
+.fontWhite {
+    color: white;
+}
+
+.font-90 {
+    font-size: 90px;
+}
+
+.font-70 {
+    font-size: 70px;
+}
+
+.font-50 {
+    font-size: 50px;
+}
+
+.btn-color {
+    line-height: normal;
+    --bs-btn-color: #000000;
+    --bs-btn-bg: #A2DBFA;
+    --bs-btn-border-color: #A2DBFA;
+    --bs-btn-hover-color: #000000;
+    --bs-btn-hover-bg: rgba(124, 177, 255, 0.915);
+    --bs-btn-hover-border-color: rgba(124, 177, 255, 0.9815);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #000000;
+    --bs-btn-active-bg: rgba(124, 177, 255, 0.815);
+    --bs-btn-active-border-color: #a2dbfaa7;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000000;
+    --bs-btn-disabled-bg: #A2DBFA;
+    --bs-btn-disabled-border-color: #0d6efd
+}
+
+#klcc {
+    position: relative;
+    background-image: url(../img/KLCC.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.state-flag {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.state-flag img {
+    align-self: flex-start;
+}
+
+.picture-dark::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.lineh-normal {
+    line-height: normal;
+}
+
+#penang-hill {
+    position: relative;
+    background-image: url(../img/penang\ hill.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#langkawi {
+    position: relative;
+    background-image: url(../img/Langkawi-Malaysia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#genting {
+    position: relative;
+    background-image: url(../img/genting-place.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cameron {
+    position: relative;
+    background-image: url(../img/cameron.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#kekloksi {
+    position: relative;
+    background-image: url(../img/Kek-Lok-Si-Temple.webp);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#kinabalu {
+    position: relative;
+    background-image: url(../img/kinabalu.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#semporna {
+    position: relative;
+    background-image: url(../img/semporna-places.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer_logo {
+        padding-right: 24px;
+    }
+
+    #footer_logo_end {
+        padding-right: 24px;
+    }
+
+    #footer-copyright {
+        justify-content: end;
+        padding-right: 24px;
+    }
+
+    #klcc {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 24px;
+        margin-bottom: 48px;
+    }
+
+    #penang-hill {
+        margin-top: 48px;
+        margin-left: 24px;
+        margin-right: 48px;
+        margin-bottom: 48px;
+    }
+
+    #langkawi {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 24px;
+        margin-bottom: 48px;
+    }
+
+    #genting {
+        margin-top: 48px;
+        margin-left: 24px;
+        margin-right: 48px;
+        margin-bottom: 48px;
+    }
+
+    #cameron {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 24px;
+        margin-bottom: 48px;
+    }
+
+    #kekloksi {
+        margin-top: 48px;
+        margin-left: 24px;
+        margin-right: 48px;
+        margin-bottom: 48px;
+    }
+
+    #kinabalu {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 24px;
+        margin-bottom: 48px;
+    }
+
+    #semporna {
+        margin-top: 48px;
+        margin-left: 24px;
+        margin-right: 48px;
+        margin-bottom: 48px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /* for footer css */
+    .footer {
+        flex-direction: column;
+    }
+
+    #footer-logo {
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #footer-navlink {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-navlink a {
+        padding-top: 16px;
+    }
+
+    #footer-social {
+        justify-content: center;
+    }
+
+    #footer-social img {
+        width: 80px;
+        padding: 20px;
+    }
+
+    #footer-copyright {
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    #footer_logo_end {
+        padding-right: 0;
+    }
+
+    #footer-copyright p {
+        text-align: center;
+    }
+
+    /* for nav footer css end*/
+
+    #main_page_img h1 {
+        font-size: 120px;
+    }
+
+    #main_page_img {
+        height: 600px;
+    }
+
+    #content .d-flex {
+        flex-direction: column;
+    }
+
+    #content h1 {
+        font-size: 70px;
+    }
+
+    #content h2 {
+        font-size: 50px;
+    }
+
+    #content button {
+        font-size: 30px;
+    }
+
+    #klcc {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 0;
+    }
+
+    #penang-hill {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 0;
+    }
+
+    #langkawi {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 0;
+    }
+
+    #genting {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 0;
+    }
+
+    #cameron {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 0;
+    }
+
+    #kekloksi {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 0;
+    }
+
+    #kinabalu {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 0;
+    }
+
+    #semporna {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 96px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ms-phone-padding {
+        padding-left: 24px;
+        padding-bottom: 24px;
+    }
+
+    .state-flag img {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #main_page_img h1 {
+        font-size: 100px;
+    }
+
+    #main_page_img {
+        height: 500px;
+    }
+
+    #content h1 {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    #content h2 {
+        font-size: 40px;
+    }
+
+    #content button {
+        font-size: 25px;
+    }
+
+    .state-flag img {
+        margin-top: 14px;
+    }
+
+    .state-flag img {
+        width: 75px;
+    }
+
+    .ms-phone-padding {
+        padding-left: 12px;
+        padding-bottom: 12px;
+    }
+}

@@ -1,0 +1,373 @@
+.container-xxl {
+    padding: 0;
+    background-image: url(../img/web_site\ background\(opacity-50\).png);
+}
+
+/* for nav footer css */
+.navbar {
+    background-color: #053742;
+    max-width: 1519.2px;
+    margin: auto;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:visited {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #A2DBFA;
+}
+
+.navbar-toggler {
+    background-color: #E8F0F2;
+    border: none;
+    color: #A2DBFA;
+}
+
+#footer-social {
+    justify-content: end;
+}
+
+.fontBlue {
+    color: #39A2DB;
+}
+
+.font-100 {
+    font-size: 100px;
+}
+
+#popular_img a {
+    color: black;
+    font-size: 38px;
+    text-decoration: none;
+}
+
+#kl {
+    position: relative;
+    background-image: url(../img/KLCC.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+
+    /* for text button to left bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fontWhite {
+    color: white;
+    margin: 0;
+}
+
+.fontRelative {
+    position: relative;
+}
+
+#penang {
+    position: relative;
+    background-image: url(../img/penang\ hill.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+
+    /* for text button to left bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pahang {
+    position: relative;
+    background-image: url(../img/genting.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+
+    /* for text button to left bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kedah {
+    position: relative;
+    background-image: url(../img/Langkawi-Malaysia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+
+    /* for text button to left bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.thumbnail::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.Lern_bg {
+    background-image: url(../img/home_know_more.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.font-60 {
+    font-size: 50px;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.Lern_bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+#Lern-inside {
+    position: relative;
+}
+
+.button_viewall {
+    text-align: center;
+}
+
+.btn-color {
+    line-height: normal;
+    --bs-btn-color: #000000;
+    --bs-btn-bg: #A2DBFA;
+    --bs-btn-border-color: #A2DBFA;
+    --bs-btn-hover-color: #000000;
+    --bs-btn-hover-bg: rgba(124, 177, 255, 0.915);
+    --bs-btn-hover-border-color: rgba(124, 177, 255, 0.9815);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #000000;
+    --bs-btn-active-bg: rgba(124, 177, 255, 0.815);
+    --bs-btn-active-border-color: #a2dbfaa7;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000000;
+    --bs-btn-disabled-bg: #A2DBFA;
+    --bs-btn-disabled-border-color: #0d6efd
+}
+
+.footer {
+    background-color: #053742;
+}
+
+.footer p {
+    color: white;
+    text-align: right;
+}
+
+.container {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+}
+
+.carousel-caption h1 {
+    position: relative;
+    color: white;
+    font-size: 150px;
+    font-family: 'Jomhuria', cursive;
+}
+
+.carousel-caption p {
+    position: relative;
+    color: white;
+    font-size: 60px;
+    font-family: 'Jomhuria', cursive;
+}
+
+.d-block {
+    height: 650px;
+    aspect-ratio: 22 /9;
+    object-fit: cover;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.txt-center {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.fontJomhuria {
+    font-family: 'Jomhuria', cursive;
+}
+
+.fontContent {
+    font-size: 38px;
+    line-height: normal;
+}
+
+.dp-flex {
+    display: flex;
+}
+
+#malaysia_flag {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer_logo {
+        padding-right: 24px;
+    }
+
+    #footer_logo_end {
+        padding-right: 24px;
+    }
+
+    #footer-copyright {
+        justify-content: end;
+        padding-right: 24px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* for footer css */
+    .footer {
+        flex-direction: column;
+    }
+
+    #footer-logo {
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #footer-navlink {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-navlink a {
+        padding-top: 16px;
+    }
+
+    #footer-social {
+        justify-content: center;
+    }
+
+    #footer-social img {
+        width: 80px;
+        padding: 20px;
+    }
+
+    #footer-copyright {
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    #footer_logo_end {
+        padding-right: 0;
+    }
+
+    #footer-copyright p {
+        text-align: center;
+    }
+
+    /* for nav footer css end*/
+
+    #malaysia_flag {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #malaysia_flag img {
+        width: 100%;
+    }
+
+    .Lern_bg {
+        height: 1000px;
+    }
+
+    #malaysia_flag .col-7 {
+        width: 100%;
+    }
+
+    .Lern_bg {
+        height: 550px;
+    }
+
+    #lern-font {
+        font-size: 80px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #lern-font {
+        font-size: 60px;
+    }
+
+    .Lern_bg button {
+        font-size: 30px;
+    }
+
+    .button_viewall button {
+        font-size: 30px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 100px;
+    }
+}
