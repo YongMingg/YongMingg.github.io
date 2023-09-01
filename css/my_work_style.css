@@ -63,8 +63,9 @@ body {
 
 .d-block {
     height: 650px;
-    aspect-ratio: 22 /9;
+    width: 100%;
     object-fit: cover;
+    object-position: center;
 }
 
 #slide_bar {
@@ -193,6 +194,10 @@ body {
     #service_content p {
         font-size: 20px;
     }
+
+    .d-block {
+        height: 625px;
+    }
 }
 
 @media screen and (max-width: 960px) {
@@ -203,6 +208,10 @@ body {
     #service_content p {
         font-size: 17px;
     }
+
+    .d-block {
+        height: 600px;
+    }
 }
 
 @media screen and (max-width: 865px) {
@@ -212,6 +221,10 @@ body {
 
     #service_content p {
         font-size: 15px;
+    }
+
+    .d-block {
+        height: 575px;
     }
 }
 
@@ -277,5 +290,9 @@ body {
     #footer p {
         font-size: 10px;
         text-align: center;
+    }
+
+    .d-block {
+        height: 550px;
     }
 }
